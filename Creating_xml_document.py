@@ -123,13 +123,18 @@ def convert_aECG():
             for j in range(0,1):
                 Component=E.SubElement(sequenceSet,"component")
                 sub=E.SubElement(Component,"sequence")
-
-                child=E.SubElement(sub,'code',data[str(i)][0]['code'] )  
-                value=E.SubElement(sub,'value',{'{%s}type' % xsi: 'SLIST_PQ'})
-                child=E.SubElement(value,"origin",data[str(i)][0]['origin'] )   
-                child=E.SubElement(value,'scale', data[str(i)][0]['scale'])    
-                digits=E.SubElement(value,'digits')
-                digits.text=y[(i,i)]        
+                if (i>6):
+                    child=E.SubElement(sub,'code', data[str(i)]['code'])  
+                    value=E.SubElement(sub,'value',{'{%s}type' % xsi: 'SLIST_PQ'})
+                    child=E.SubElement(value,"origin", data[str(i)]['origin']) 
+                    child=E.SubElement(value,'scale', data[str(i)]['scale'])
+                else:
+                    child=E.SubElement(sub,'code',data[str(i)][0]['code'] )  
+                    value=E.SubElement(sub,'value',{'{%s}type' % xsi: 'SLIST_PQ'})
+                    child=E.SubElement(value,"origin",data[str(i)][0]['origin'] )   
+                    child=E.SubElement(value,'scale', data[str(i)][0]['scale'])    
+                    digits=E.SubElement(value,'digits')
+                    digits.text=y[(i,i)]        
                
 # output displays in python ide.    
 #E.dump(root)     
@@ -140,4 +145,4 @@ def convert_aECG():
             f.write(string) # or f.write(xmlstr.encode('utf-8'))
             print('File is writed!!','Finished.....')
 
-convert_aECG()
+convert_aECG() # Call the function. 
