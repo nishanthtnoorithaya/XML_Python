@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Friday 21-05-2020 17:40:06
+
+@author: Nishanth T (Junior Python Developer)
+
+"""
+
+
 #creating json file
 import json
 from merge_dict import mergeDict 
