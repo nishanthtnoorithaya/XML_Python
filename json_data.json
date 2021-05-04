@@ -1,0 +1,400 @@
+{
+    "0": [
+        {
+            "code": {
+                "code": "MDC_ECG_LEAD_I",
+                "codeSystem": "2.16.840.1.113883.6.24",
+                "codeSystemName": "MDC"
+            },
+            "origin": {
+                "value": "0",
+                "unit": "uV"
+            },
+            "scale": {
+                "value": "2.5",
+                "unit": "uV"
+            }
+        },
+        [
+            {
+                "controlvariable": {
+                    "value": {
+                        "{http://www.w3.org/2001/XMLSchema-instance}type": "PQ",
+                        "value": "150",
+                        "unit": "Hz"
+                    },
+                    "ST": "FIR"
+                }
+            },
+            {
+                "controlvariable": {
+                    "code": {
+                        "code": "MDC_ECG_CTL_VBL_ATTR_FILTER_LOW_PASS",
+                        "codeSystem": "2.16.840.1.113883.6.24",
+                        "codeSystemName": "MDC",
+                        "displayName": "Low pass filter"
+                    }
+                }
+            }
+        ]
+    ],
+    "1": [
+        {
+            "code": {
+                "code": "MDC_ECG_LEAD_II",
+                "codeSystem": "2.16.840.1.113883.6.24",
+                "codeSystemName": "MDC"
+            },
+            "origin": {
+                "value": "0",
+                "unit": "uV"
+            },
+            "scale": {
+                "value": "2.5",
+                "unit": "uV"
+            }
+        },
+        [
+            {
+                "controlvariable": {
+                    "value": {
+                        "{http://www.w3.org/2001/XMLSchema-instance}type": "PQ",
+                        "value": "60",
+                        "unit": "Hz"
+                    },
+                    "ST": "Adaptive"
+                }
+            },
+            {
+                "controlvariable": {
+                    "code": {
+                        "code": "MDC_ECG_CTL_VBL_ATTR_FILTER_CUTOFF_FREQ",
+                        "codeSystem": "2.16.840.1.113883.6.24",
+                        "codeSystemName": "MDC",
+                        "displayName": "Cutoff Frequency"
+                    }
+                }
+            }
+        ]
+    ],
+    "2": [
+        {
+            "code": {
+                "code": "MDC_ECG_LEAD_V1",
+                "codeSystem": "2.16.840.1.113883.6.24",
+                "codeSystemName": "MDC"
+            },
+            "origin": {
+                "value": "0",
+                "unit": "uV"
+            },
+            "scale": {
+                "value": "2.5",
+                "unit": "uV"
+            }
+        },
+        [
+            {},
+            {
+                "controlvariable": {
+                    "code": {
+                        "code": "MDC_ECG_CTL_VBL_ATTR_FILTER_HIGH_PASS",
+                        "codeSystem": "2.16.840.1.113883.6.24",
+                        "codeSystemName": "MDC",
+                        "displayName": "high pass filter"
+                    }
+                }
+            }
+        ]
+    ],
+    "3": [
+        {
+            "code": {
+                "code": "MDC_ECG_LEAD_V2",
+                "codeSystem": "2.16.840.1.113883.6.24",
+                "codeSystemName": "MDC"
+            },
+            "origin": {
+                "value": "0",
+                "unit": "uV"
+            },
+            "scale": {
+                "value": "2.5",
+                "unit": "uV"
+            }
+        },
+        [
+            {},
+            {
+                "controlvariable": {
+                    "code": {
+                        "code": "MDC_ECG_CTL_VBL_ATTR_FILTER_DESCRIPTION",
+                        "codeSystem": "2.16.840.1.113883.6.24",
+                        "codeSystemName": "MDC",
+                        "displayName": "filter type"
+                    }
+                }
+            }
+        ]
+    ],
+    "4": [
+        {
+            "code": {
+                "code": "MDC_ECG_LEAD_V3",
+                "codeSystem": "2.16.840.1.113883.6.24",
+                "codeSystemName": "MDC"
+            },
+            "origin": {
+                "value": "0",
+                "unit": "uV"
+            },
+            "scale": {
+                "value": "2.5",
+                "unit": "uV"
+            }
+        },
+        [
+            {},
+            {
+                "controlvariable": {
+                    "code": {
+                        "code": "MDC_ECG_CTL_VBL_ATTR_FILTER_NOTCH",
+                        "codeSystem": "2.16.840.1.113883.6.24",
+                        "codeSystemName": "MDC",
+                        "displayName": "Notch filter"
+                    }
+                }
+            }
+        ]
+    ],
+    "5": [
+        {
+            "code": {
+                "code": "MDC_ECG_LEAD_V4",
+                "codeSystem": "2.16.840.1.113883.6.24",
+                "codeSystemName": "MDC"
+            },
+            "origin": {
+                "value": "0",
+                "unit": "uV"
+            },
+            "scale": {
+                "value": "2.5",
+                "unit": "uV"
+            }
+        },
+        [
+            {},
+            {
+                "controlvariable": {
+                    "code": {
+                        "code": "MDC_ECG_CTL_VBL_ATTR_FILTER_DESCRIPTION",
+                        "codeSystem": "2.16.840.1.113883.6.24",
+                        "codeSystemName": "MDC",
+                        "displayName": "filter type"
+                    }
+                }
+            }
+        ]
+    ],
+    "6": [
+        {
+            "code": {
+                "code": "MDC_ECG_LEAD_V5",
+                "codeSystem": "2.16.840.1.113883.6.24",
+                "codeSystemName": "MDC"
+            },
+            "origin": {
+                "value": "0",
+                "unit": "uV"
+            },
+            "scale": {
+                "value": "2.5",
+                "unit": "uV"
+            }
+        },
+        [
+            {},
+            {
+                "controlvariable": {
+                    "code": {
+                        "code": "MDC_ECG_CTL_VBL_ATTR_FILTER_NOTCH_FREQ",
+                        "codeSystem": "2.16.840.1.113883.6.24",
+                        "codeSystemName": "MDC",
+                        "displayName": "notch frequency"
+                    }
+                }
+            }
+        ]
+    ],
+    "id": {
+        "root": "61d1a24f-b47e-41aa-ae95-f8ac302f4eeb"
+    },
+    "code": {
+        "code": "93000",
+        "codeSystem": "2.16.840.1.113883.6.12",
+        "codeSystemName": "CPT-4"
+    },
+    "effectiveTime": {
+        "center": {
+            "value": "20210504145218"
+        }
+    },
+    "confidentialityCode": {
+        "code": "B",
+        "codeSystem": "1.2.3.4.5",
+        "codeSystemName": "???CDISC???",
+        "displayName": "Blinded to Sponsor and Investigator"
+    },
+    "reasonCode": {
+        "code": "PER_PROTOCOL",
+        "codeSystem": "1.2.3.4.5",
+        "codeSystemName": "???CDISC???",
+        "displayName": "The protocol specified that a measurement be performed at this point in the trial"
+    },
+    "componentOf": {
+        "timepointevent": {
+            "code": {
+                "code": "VISIT_3",
+                "codeSystem": "2.16.840.1.113883.3.2",
+                "codeSystemName": "PUK-123-PROT-C1",
+                "displayName": "3rd Visit"
+            },
+            "Lvalue": {
+                "value": "200211220737"
+            },
+            "Hvalue": {
+                "value": "200211221023"
+            },
+            "reasonCode": {
+                "code": "S",
+                "codeSystem": "1.2.3.4.5",
+                "codeSystemName": "???CDISC???",
+                "displayName": "Scheduled Visit"
+            },
+            "studyEventPerformer": {
+                "id": {
+                    "root": "2.16.840.1.113883.3.400",
+                    "extension": "SC-342"
+                }
+            },
+            "trialSubject": {
+                "id": {
+                    "root": "2.16.840.1.113883.3.400",
+                    "extension": "SBJ-001"
+                },
+                "code": {
+                    "code": "ENROLLED",
+                    "codeSystem": "2.16.840.1.113883.5.111",
+                    "codeSystemName": "ResearchSubjectRoleBasis",
+                    "displayName": "Enrolled in trial"
+                }
+            },
+            "subjectDemographicPerson": {
+                "GenderCode": {
+                    "code": "M",
+                    "codeSystem": "2.16.840.1.113883.5.1"
+                },
+                "birthTime": {
+                    "value": "19920808"
+                },
+                "raceCode": {
+                    "code": "2106-3",
+                    "codeSystem": "2.16.840.1.113883.5.104",
+                    "codeSystemName": "Race",
+                    "displayName": "Asian"
+                }
+            }
+        }
+    },
+    "sequence": {
+        "code": {
+            "code": "TIME_ABSOLUTE",
+            "codeSystem": "2.16.840.1.113883.5.4",
+            "codeSystemName": "ActCode",
+            "displayName": "Absolute Time"
+        },
+        "head": {
+            "value": "20021122091000.000"
+        },
+        "increament": {
+            "value": "0.002",
+            "unit": "s"
+        }
+    },
+    "7": {
+        "code": {
+            "code": "MDC_ECG_LEAD_V6",
+            "codeSystem": "2.16.840.1.113883.6.24",
+            "codeSystemName": "MDC"
+        },
+        "origin": {
+            "value": "0",
+            "unit": "uV"
+        },
+        "scale": {
+            "value": "2.5",
+            "unit": "uV"
+        }
+    },
+    "8": {
+        "code": {
+            "code": "MDC_ECG_LEAD_III",
+            "codeSystem": "2.16.840.1.113883.6.24",
+            "codeSystemName": "MDC"
+        },
+        "origin": {
+            "value": "0",
+            "unit": "uV"
+        },
+        "scale": {
+            "value": "2.5",
+            "unit": "uV"
+        }
+    },
+    "9": {
+        "code": {
+            "code": "MDC_ECG_LEAD_AVR",
+            "codeSystem": "2.16.840.1.113883.6.24",
+            "codeSystemName": "MDC"
+        },
+        "origin": {
+            "value": "0",
+            "unit": "uV"
+        },
+        "scale": {
+            "value": "2.5",
+            "unit": "uV"
+        }
+    },
+    "10": {
+        "code": {
+            "code": "MDC_ECG_LEAD_AVL",
+            "codeSystem": "2.16.840.1.113883.6.24",
+            "codeSystemName": "MDC"
+        },
+        "origin": {
+            "value": "0",
+            "unit": "uV"
+        },
+        "scale": {
+            "value": "2.5",
+            "unit": "uV"
+        }
+    },
+    "11": {
+        "code": {
+            "code": "MDC_ECG_LEAD_AVF",
+            "codeSystem": "2.16.840.1.113883.6.24",
+            "codeSystemName": "MDC"
+        },
+        "origin": {
+            "value": "0",
+            "unit": "uV"
+        },
+        "scale": {
+            "value": "2.5",
+            "unit": "uV"
+        }
+    }
+}
